@@ -8,3 +8,7 @@ CREATE TABLE `customer` (
   `remark` text COMMENT '备注',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+#insert语句#
+insert into `customer` values('1','custmoer1','Jack','13456789876','jack@gmail.com',null);
+insert into `customer` values('2','custmoer2','Rose','13479734543','rose@gmail.com',null);
