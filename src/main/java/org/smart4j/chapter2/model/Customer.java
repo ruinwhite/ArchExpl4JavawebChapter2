@@ -3,7 +3,7 @@ package org.smart4j.chapter2.model;
 public class Customer {
     private long id;
     private String name;
-    private String concact;
+    private String contact;
     private String telephone;
     private String email;
     private String remark;
@@ -24,12 +24,12 @@ public class Customer {
         this.name = name;
     }
 
-    public String getConcact() {
-        return concact;
+    public String getContact() {
+        return contact;
     }
 
-    public void setConcact(String concact) {
-        this.concact = concact;
+    public void setContact(String contact) {
+        this.contact = contact;
     }
 
     public String getTelephone() {

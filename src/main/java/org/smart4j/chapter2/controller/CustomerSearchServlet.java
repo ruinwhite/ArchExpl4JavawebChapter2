@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("customer_search")
+@WebServlet("/customer_search")
 public class CustomerSearchServlet extends HttpServlet {
 
     //处理客户搜索请求
