@@ -119,7 +119,7 @@
             <!-- Tomcat 内嵌tomcat本地即可使用，不需要再部署到额外的tomcat上 -->
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
-                <artifactId>tomcat-maven-plugin</artifactId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
                 <configuration>
                     <path>/${project.artifactId}</path>
